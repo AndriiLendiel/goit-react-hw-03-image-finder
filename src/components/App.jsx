@@ -1,8 +1,8 @@
-import { SearchBar } from "../components/Searchbar/Searchbar";
-import * as API from '../service/api'
-import { ImageGallery } from "../components/ImageGallery/ImageGallery";
-import { Button } from "../components/Button/Button";
-import {Loader} from "../components/Loader/Loader";
+import { SearchBar } from "./Searchbar/Searchbar";
+import * as API from '../service/api.js'
+import { ImageGallery } from "./ImageGallery/ImageGallery";
+import { Button } from './Button/Button'
+import {Loader} from "./Loader/Loader";
 import s from './App.module.css'
 import toast, {Toaster} from "react-hot-toast";
 
